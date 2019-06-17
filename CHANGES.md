@@ -19,9 +19,10 @@ Fixed Issues:
 * [#2923](https://github.com/ckeditor/ckeditor-dev/issues/2923): Fixed: CSS `windowtext` color is not correctly recognized by [`CKEDITOR.tools.style.parse`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_tools_style_parse.html) functions.
 * [#2235](https://github.com/ckeditor/ckeditor-dev/issues/2235): Fixed: [Image](https://ckeditor.com/cke4/addon/image) in table cell has an empty URL field when edited from context menu opened by right-click when [Table Selection](https://ckeditor.com/cke4/addon/tableselection) plugin is in use.
 * [#3120](https://github.com/ckeditor/ckeditor-dev/issues/3120): [IE8] Fixed: [`CKEDITOR.tools.extend`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_tool.html#method-extend) function doesn't work with [`DontEnum`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Properties) object property attribute.
-* [#2845](https://github.com/ckeditor/ckeditor-dev/issues/2845): [Rich Combo](https://ckeditor.com/cke4/addon/richcombo) reacts to right mouse button click.
-* [#2857](https://github.com/ckeditor/ckeditor-dev/issues/2857): [List Block](https://ckeditor.com/cke4/addon/listblock) items react to right mouse button click.
-* [#2858](https://github.com/ckeditor/ckeditor-dev/issues/2858): [Menu](https://ckeditor.com/cke4/addon/menu) items react to right mouse button click.
+* [IE, Edge] Fixed: Various editor's UI elements react to right mouse button click:
+	* [#2845](https://github.com/ckeditor/ckeditor-dev/issues/2845): [Rich Combo](https://ckeditor.com/cke4/addon/richcombo),
+	* [#2857](https://github.com/ckeditor/ckeditor-dev/issues/2857): [List Block](https://ckeditor.com/cke4/addon/listblock),
+	* [#2858](https://github.com/ckeditor/ckeditor-dev/issues/2858): [Menu](https://ckeditor.com/cke4/addon/menu).
 
 API Changes:
 
